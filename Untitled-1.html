@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web development</title>
+    <link rel="stylesheet" href="style5.css">
+    <script src="https://kit.fontawesome.com/1d431230dc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- HEADER SECTION -->
+
+    <div id="header">
+        <!-- navbar -->
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="image/logo.png" class="logo">
+                </div>
+                <div class="link">
+                    <ul class="list">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#cv">CV</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <!-- <i class="fa-sharp fa-solid fa-xmark" ></i> -->
+                    </ul>
+                    <!-- <i class="fa-sharp fa-solid fa-bars" ></i>     -->
+                </div>
+            </nav>
+        </div>
+        <!-- line -->
+        <div class="header-text">
+            <p> Software Engineer</p>
+            <h1>Hi, I'm <span>Prashant </span><br>from India</h1>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+
+    <div class="about" id="about">
+        <div class="container-about">
+            <div class="about-col-1">
+                <img src="image/image.jpeg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>An “About Me,” also known as a blurb, is a short piece of writing that informs readers about your professional background,</p>   
+                <p>key accomplishments, personal values and any brands you may be associated with.</p>  
+                <p>Personal websites, social media profiles and company directories often feature “About Me” sections.</p>  
+                <p>A blurb is an opportunity to quickly give important details about yourself to potential business contacts like clients, vendors, employers or anyone who wants to get to know you better.</p>
+                <div class="tab-titles">
+                    <p class="tab-links  active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('certificates')">Certificates</p>    
+                </div>
+                <div class="tab-contents  active-tab" id="skills">
+                    <ul>
+                        <li><span>Web </span>Developmet<br>-WebPage Developmant</li>
+                        <li><span>Game </span>Developmet<br>-Game development in Unity Game Engine</li>
+                        <li><span>Python </span>Tools<br>-AI Tool Development</li>
+                        <li><span>C# </span>language<br>-For Game Scripting in Unity Engine</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022</span><br>-Internship at Defence Reseach and Developmet Organization I.N.M.A.S.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2017</span><br>-10th from Kendriya Vidhalaya Tagore Garden New Delhi-110027</li>
+                        <li><span>2020</span><br>-12th from Kendriya Vidhalaya Jhajjar-124104</li>
+                        <li><span>2020-current </span><br>-B.Tech From C.R.S.S.I.E.T Jhajjar</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="certificates">
+                    <ul>
+                        <li><span>2022</span><br>-D.R.D.O. Internship Certificate</li>
+                        <li><span>06/2022 </span><br>-Object Oriented Programming in C++ (UDEMY)</li>
+                        <li><span>05/2022 </span><br>-CSS Crash Course</li>
+                        <li><span>06/2018 </span><br>-Smart Professional MIS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- service section -->
+
+    <div id="service">
+        <div class="container-service">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Web design identifies the goals of a website or webpage and promotes accessibility for all potential users.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-headset"></i>
+                    <h2>Game Development</h2>
+                    <p>Web design identifies the goals of a website or webpage and promotes accessibility for all potential users.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-apple"></i>
+                    <h2>web  Development</h2>
+                    <p>Web design identifies the goals of a website or webpage and promotes accessibility for all potential users.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WORK PORTFOLIO -->
+    <div id="portfolio">
+        <div class="container-work">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/web.jpg" >
+                    <div class="layer">
+                        <h3>Social Media Website</h3>
+                        <p>The Website connects you to the talented people around the world.
+                        visit now</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://unity.com/logo-unity-web.png" >
+                    <div class="layer">
+                        <h3>Crazy Ball Game</h3>
+                        <p>The game connects you to the talented people around the world.
+                        visit now</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/app.jpg" >
+                    <div class="layer">
+                        <h3>Spotify clone</h3>
+                        <p>The app connects you to the talented people around the world.
+                        visit now</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT ME -->
+
+    <div id="contact">
+        <div class="container-contact">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="image/Prashant Resume.pdf" download class="btn btn2 btn3" id="cv">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn4">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Prashant Dahiya.</p>
+        </div>
+    </div>
+
+    <!-- JAVA SCRIPT -->
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    
+    </script> 
+</body>
+</html>
